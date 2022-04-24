@@ -26,11 +26,12 @@ public class ClickNDrag : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
+            isBeingHeld = true;
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            isBeingHeld = true;
+            
         }
 
     }
