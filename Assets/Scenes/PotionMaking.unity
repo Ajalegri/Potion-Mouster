@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 1213066347}
   - component: {fileID: 1213066348}
   - component: {fileID: 1213066350}
+  - component: {fileID: 1213066351}
   m_Layer: 0
   m_Name: test_orange_potion
   m_TagString: Untagged
@@ -315,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213066342}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 251}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -469,6 +470,18 @@ PolygonCollider2D:
       - {x: 0.099999994, y: -0.14999999}
       - {x: -0.099999994, y: -0.14999999}
       - {x: -0.11, y: -0.14}
+--- !u!114 &1213066351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213066342}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcfb9334cd3f82428bbce3c97947483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294435931
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +704,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347801611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.79, y: 0, z: 251}
+  m_LocalPosition: {x: 1.79, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1028,7 +1041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712630635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.69, y: 0, z: 251}
+  m_LocalPosition: {x: -1.69, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
